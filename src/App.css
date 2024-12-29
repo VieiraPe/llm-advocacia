@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-neutral-0: #0c0c0c;
+  --color-neutral-10: #171717;
+  --color-neutral-30: #a8a29e;
+  --color-neutral-40: #f5f5f5;
+  --color-hover: linear-gradient(90deg, #b40000, #0e0e0e, #000000, #000000);
+  --color-instragram: linear-gradient(#7f37c9, #ff2992, #ff9807);
+  --color-facebook: #4267b3;
+  --color-whatsapp: #25d366;
+}
+
+/* CONFIGURAÇÃO PADRÃO */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Poppins", "Montserrat", "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  .red {
+    color: #b40000;
+  }
+
+  span {
+    font-weight: 600;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.8s;
+  }
+
+  a:hover {
+    opacity: 0.8;
+  }
+
+  button {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: var(--color-neutral-0);
+    font-size: 1rem;
+    border-radius: 0 5px;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+    color: var(--color-neutral-40);
+  }
+
+  button:hover {
+    background: var(--color-hover);
+  }
+
+  #instagram {
+    background: var(--color-instragram);
+  }
+
+  #facebook {
+    background-color: var(--color-facebook);
+  }
+
+  #whatsapp {
+    background-color: var(--color-whatsapp);
+  }
+}
