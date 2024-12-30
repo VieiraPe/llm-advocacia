@@ -71,3 +71,9 @@
     background-color: var(--color-whatsapp);
   }
 }
+
+.logo {
+  display: flex;
+  width: 5rem;
+  align-items: center;
+}
