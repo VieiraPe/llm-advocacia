@@ -1,16 +1,15 @@
-import Footer from "../../components/Footer";
-import Main from "../../components/Main/Index";
 import Navbar from "../../components/Navbar";
+import Main from "../../components/MainHome/Index";
 import SectionCards from "../../components/SectionCards/Index";
-
+import Footer from "../../components/Footer";
 const Home = () => {
   return (
     <>
-    <Navbar />
-    <Main />
-    <SectionCards />
+      <Navbar />
+      <Main />
+      <SectionCards />
 
-    <Footer />
+      <Footer />
     </>
   );
 };
