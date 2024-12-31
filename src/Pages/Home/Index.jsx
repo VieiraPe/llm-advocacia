@@ -1,7 +1,15 @@
+import Footer from "../../components/Footer";
+import Main from "../../components/Main/Index";
+import Navbar from "../../components/Navbar";
+
 const Home = () => {
   return (
-    <div>
-    </div>
+    <>
+    <Navbar />
+    <Main />
+
+    <Footer />
+    </>
   );
 };
 
