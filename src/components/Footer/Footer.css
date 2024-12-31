@@ -1,6 +1,7 @@
 footer {
   width: 100%;
   color: var(--color-neutral-40);
+  align-items: center;
 }
 
 .footer_link {
@@ -13,7 +14,6 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   padding: 3rem 10rem;
 }
-
 #footer_contact h1 {
   margin-bottom: 0.75rem;
 }
