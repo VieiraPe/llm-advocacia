@@ -24,8 +24,8 @@ const Footer = () => {
           ></path>
         </svg>
       </div>
-      <div className="grid lg:grid-cols-3  md:grid-cols-2 grid-cols-1 gap-20 p-20">
-        <div className="flex flex-col gap-5">
+      <div className="grid lg:grid-cols-3  md:grid-cols-2 grid-cols-1 text-center gap-20 p-20">
+        <div className="flex flex-col items-center md:items-start gap-5">
           <img src={logo} alt="Imagem logo LLM-Advocacia" className="w-40 " />
         </div>
         <div className="flex flex-col gap-5">
@@ -54,13 +54,13 @@ const Footer = () => {
                 className="text-white text-lg hover:text-slate-300 transform   duration-150    "
                 href=""
               >
-                Contatos
+                WhatsApp
               </a>
             </li>
           </ul>
         </div>
 
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col items-center md:items-start gap-5">
           <ul>
             <li className="text-[22px] list-none font-semibold text-slate-300 py-2 uppercase">
               Contatos
@@ -72,7 +72,7 @@ const Footer = () => {
               <FaWhatsapp /> 21 96435-6715
             </li>
           </ul>
-          <div className="flex space-x-4 ">
+          <div className="flex space-x-4  ">
             <a
               className="text-white text-2xl  hover:text-red-500 transform hover:scale-150  transition-all duration-150 ease-in-out   "
               href=""

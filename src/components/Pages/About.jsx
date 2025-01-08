@@ -1,14 +1,17 @@
-import logo from "../assets/favicon.png";
+import logo from "../../assets/favicon.png";
 
 const About = () => {
   return (
     <section className="text-slate-100 p-20 bg-slate-950">
+      <h1 className="uppercase md:text-4xl text-3xl font-bold text-center pb-12">
+        Sobre <span className="text-red-700"> Nós</span>
+      </h1>
       <div className="grid lg:grid-cols-2 grid-cols-1">
         <div className="flex items-center justify-center">
           <img src={logo} alt="Logo LLM ADVOCACIA" className="w-2/4 " />
         </div>
         <div>
-          <h1 className="text-4xl font-bold text-center pb-8">
+          <h1 className="text-3xl font-bold text-center pb-8">
             A LLM <span className=" text-red-700">ADVOCACIA</span>
           </h1>
           <p className="text-justify pb-4  indent-20">

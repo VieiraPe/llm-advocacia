@@ -21,25 +21,19 @@ const Nav = () => {
           <Link spy={true} smooth={true} to="About">
             <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               {" "}
-              Sobre nós
+              Areas de atuação
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Services">
             <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               {" "}
-              Areas de atuação
+              Sobre nós
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Projects">
             <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               {" "}
               WhatsApp
-            </li>
-          </Link>
-          <Link spy={true} smooth={true} to="Contact">
-            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
-              {" "}
-              Contato
             </li>
           </Link>
         </ul>
@@ -65,25 +59,19 @@ const Nav = () => {
               <Link spy={true} smooth={true} to="About">
                 <li className="uppercase hover:text-slate-300 duration-700 transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
                   {" "}
-                  Sobre nós
+                  Areas de atuação
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Services">
                 <li className="uppercase hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
                   {" "}
-                  Areas de atuação
+                  Sobre nós
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Projects">
                 <li className="uppercase hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
                   {" "}
                   WhatsApp
-                </li>
-              </Link>
-              <Link spy={true} smooth={true} to="Contact">
-                <li className="uppercase hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
-                  {" "}
-                  Contato
                 </li>
               </Link>
             </ul>

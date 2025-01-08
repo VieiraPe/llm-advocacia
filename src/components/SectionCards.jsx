@@ -5,7 +5,7 @@ import ButtonEspecialista from "./Button/ButtonEspecialista";
 
 const SectionCards = () => {
   return (
-    <section className="bg-black ">
+    <section className="bg-black pb-20 ">
       <h1 className="flex items-center text-3xl justify-center text-slate-100 font-bold py-8">
         Areas de Atuação
       </h1>
