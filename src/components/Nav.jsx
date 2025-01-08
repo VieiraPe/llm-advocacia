@@ -11,33 +11,33 @@ const Nav = () => {
   const content = (
     <>
       <div className="xl:hidden block absolute top-20 w-full left-0 right-0 bg-slate-900 trasition z-10 opacity-70">
-        <ul className="text-center text-xl p-20">
+        <ul className="text-center text-lg p-20">
           <Link spy={true} smooth={true} to="Home">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               {" "}
               Home
             </li>
           </Link>
           <Link spy={true} smooth={true} to="About">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               {" "}
               Sobre nós
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Services">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               {" "}
               Areas de atuação
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Projects">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               {" "}
               WhatsApp
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Contact">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               {" "}
               Contato
             </li>
@@ -55,33 +55,33 @@ const Nav = () => {
         </div>
         <div className="xl:flex lg:flex xl:flex-1 items bg-center justify-end font-normal hidden  ">
           <div className="flex items-center">
-            <ul className="flex gap-8 mr-16 text-[18px] ">
+            <ul className="flex gap-8 mr-16 text-md ">
               <Link spy={true} smooth={true} to="Home">
-                <li className=" hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
+                <li className="uppercase  hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
                   {" "}
                   Home
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="About">
-                <li className="hover:text-slate-300 duration-700 transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
+                <li className="uppercase hover:text-slate-300 duration-700 transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
                   {" "}
                   Sobre nós
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Services">
-                <li className="hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
+                <li className="uppercase hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
                   {" "}
                   Areas de atuação
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Projects">
-                <li className="hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
+                <li className="uppercase hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
                   {" "}
                   WhatsApp
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Contact">
-                <li className="hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
+                <li className="uppercase hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
                   {" "}
                   Contato
                 </li>
