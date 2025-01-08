@@ -1,0 +1,13 @@
+.main {
+  background: url(../assets/bg.png) no-repeat center center;
+  background-size: cover;
+  height: 92vh;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    background: url(../assets/bg-mobile.png) no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+  }
+}

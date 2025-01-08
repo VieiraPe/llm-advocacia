@@ -1,9 +1,16 @@
 import "./App.css";
+import Footer from "./Components/Footer";
+import Main from "./Components/Main";
+import Nav from "./Components/Nav";
 
 function App() {
   return (
     <>
-      <h1 className="w-4 bg-slate-300">Teste</h1>
+      <div className="bg-slate-900">
+        <Nav />
+        <Main />
+        <Footer />
+      </div>
     </>
   );
 }
