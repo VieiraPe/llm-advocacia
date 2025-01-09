@@ -43,7 +43,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <div className="h-[10vh] flex justify-between top-20 z-50 text-white px-20  ">
+      <div className="h-[10vh] flex justify-between top-20 z-50 text-white md:px-20 p-5  ">
         <div className="flex items-center flex-1">
           <img src={logo} alt="" className="w-24 " />
         </div>

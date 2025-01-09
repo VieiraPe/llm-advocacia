@@ -9,7 +9,7 @@ const SectionCards = () => {
       <h1 className="flex items-center text-3xl justify-center text-slate-100 font-bold py-8">
         Areas de Atuação
       </h1>
-      <div className="px-20  grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-10">
+      <div className="md:px-20 p-5  grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-10">
         <div className="w-80 rounded-lg shadow-md bg-slate-900 p-1 overflow-hidden">
           <img
             src={ImgAcidente}

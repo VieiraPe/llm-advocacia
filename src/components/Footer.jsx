@@ -24,7 +24,7 @@ const Footer = () => {
           ></path>
         </svg>
       </div>
-      <div className="grid lg:grid-cols-3  md:grid-cols-2 grid-cols-1 text-center gap-20 p-20">
+      <div className="grid lg:grid-cols-3  md:grid-cols-2 grid-cols-1 text-center gap-20 md:p-20 p-5 pt-20">
         <div className="flex flex-col items-center md:items-start gap-5">
           <img src={logo} alt="Imagem logo LLM-Advocacia" className="w-40 " />
         </div>
