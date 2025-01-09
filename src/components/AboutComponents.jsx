@@ -1,4 +1,5 @@
-import logo from "../../assets/favicon.png";
+import logo from "../assets/favicon.png";
+
 
 const About = () => {
   return (

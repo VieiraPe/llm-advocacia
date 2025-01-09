@@ -1,5 +1,5 @@
-import logo from "../../assets/logo.png";
-import whats from "../../assets/WhatsApp.png";
+import logo from "../assets/logo.png";
+import whats from "../assets/WhatsApp.png";
 
 const SectionWhatsApp = () => {
   return (
