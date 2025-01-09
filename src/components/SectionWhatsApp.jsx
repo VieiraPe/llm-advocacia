@@ -3,7 +3,7 @@ import whats from "../assets/WhatsApp.png";
 
 const SectionWhatsApp = () => {
   return (
-    <section className="text-slate-100 p-20 bg-slate-950">
+    <section className="text-slate-100 md:p-20 p-5 bg-black">
       <h1 className="uppercase md:text-4xl text-2xl font-bold text-center pb-12">
         Nosso <span className="text-red-700"> Whatsapp</span>
       </h1>

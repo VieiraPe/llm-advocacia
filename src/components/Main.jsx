@@ -4,7 +4,7 @@ import "./main.css";
 const Main = () => {
   return (
     <main className="text-slate-100 main">
-      <div className="md:pt-60 pt-80 w-full md:w-2/4 text-center text-xl p-20 absolute z-0">
+      <div className="md:pt-60 pt-80 w-full md:w-2/4 text-center text-xl md:p-20 p-5 absolute z-0">
         <h1 className="text-3xl	font-bold	x ">
           {" "}
           A LLM <span className="text-red-700">ADVOCACIA</span>

@@ -1,9 +1,8 @@
 import logo from "../assets/favicon.png";
 
-
 const About = () => {
   return (
-    <section className="text-slate-100 p-20 bg-slate-950">
+    <section className="text-slate-100 md:p-20 p-5 bg-slate-950">
       <h1 className="uppercase md:text-4xl text-3xl font-bold text-center pb-12">
         Sobre <span className="text-red-700"> Nós</span>
       </h1>
