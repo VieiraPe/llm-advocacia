@@ -9,14 +9,14 @@ const SectionCards = () => {
       <h1 className="flex items-center text-3xl justify-center text-slate-100 font-bold py-8">
         Areas de Atuação
       </h1>
-      <div className="px-20 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-20 ">
+      <div className="px-20  grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-10">
         <div className="w-80 rounded-lg shadow-md bg-slate-900 p-1 overflow-hidden">
           <img
             src={ImgAcidente}
             alt="Imagem do Card"
             className="w-full h-52 object-cover"
           />
-          <div className="p-4 justify-center text-center text-slate-100">
+          <div className="p-4 justify-center text-center text-slate-100 my-5">
             <h5 className="text-lg mb-2 font-bold text-red-700">
               Benefícios por Incapacidade
             </h5>
@@ -34,7 +34,7 @@ const SectionCards = () => {
             alt="Imagem do Card"
             className="w-full h-52 object-cover"
           />
-          <div className="p-4 justify-center text-center text-slate-100">
+          <div className="p-4 justify-center text-center text-slate-100 my-5">
             <h5 className="text-lg mb-2 font-bold text-red-700">
               Benefícios por Incapacidade
             </h5>
@@ -52,7 +52,7 @@ const SectionCards = () => {
             alt="Imagem do Card"
             className="w-full h-52 object-cover"
           />
-          <div className="p-4 justify-center text-center text-slate-100">
+          <div className="p-4 justify-center text-center text-slate-100 my-5">
             <h5 className="text-lg mb-2 font-bold text-red-700">
               Benefícios por Incapacidade
             </h5>
@@ -69,7 +69,7 @@ const SectionCards = () => {
             alt="Imagem do Card"
             className="w-full h-52 object-cover"
           />
-          <div className="p-4 justify-center text-center text-slate-100">
+          <div className="p-4 justify-center text-center text-slate-100 my-5">
             <h5 className="text-lg mb-2 font-bold text-red-700">
               Benefícios por Incapacidade
             </h5>
@@ -87,7 +87,7 @@ const SectionCards = () => {
             alt="Imagem do Card"
             className="w-full h-52 object-cover"
           />
-          <div className="p-4 justify-center text-center text-slate-100">
+          <div className="p-4 justify-center text-center text-slate-100 my-5">
             <h5 className="text-lg mb-2 font-bold text-red-700">
               Benefícios por Incapacidade
             </h5>
@@ -105,7 +105,7 @@ const SectionCards = () => {
             className="w-full h-52 object-cover"
           />
 
-          <div className="p-4 justify-center text-center text-slate-100">
+          <div className="p-4 justify-center text-center text-slate-100 my-5">
             <h5 className="text-lg mb-2 font-bold text-red-700">
               Benefícios por Incapacidade
             </h5>

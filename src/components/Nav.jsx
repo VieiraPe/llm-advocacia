@@ -1,10 +1,8 @@
 import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll";
 import logo from "../assets/logo.png";
-
-
+import { NavLink } from "react-router";
 
 const Nav = () => {
   const [click, setClick] = useState(false);
@@ -14,30 +12,30 @@ const Nav = () => {
     <>
       <div className="xl:hidden block absolute top-20 w-full left-0 right-0 bg-slate-900 trasition z-10 opacity-70">
         <ul className="text-center text-lg p-20">
-          <Link spy={true} smooth={true} to="/">
-            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+          <NavLink to="/" end>
+            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded active:border-red-600">
               {" "}
               Home
             </li>
-          </Link>
-          <Link spy={true} smooth={true} to="/servicos">
-            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+          </NavLink>
+          <NavLink to="/servicos" end>
+            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded active:border-red-600">
               {" "}
               Areas de atuação
             </li>
-          </Link>
-          <Link spy={true} smooth={true} to="/about">
-            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+          </NavLink>
+          <NavLink to="/sobrenos" end>
+            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded active:border-red-600">
               {" "}
               Sobre nós
             </li>
-          </Link>
-          <Link spy={true} smooth={true} to="/contatowhatsapp">
-            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+          </NavLink>
+          <NavLink to="/contatowhatsapp" end>
+            <li className="uppercase my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded active:border-red-600">
               {" "}
               WhatsApp
             </li>
-          </Link>
+          </NavLink>
         </ul>
       </div>
     </>
@@ -52,30 +50,30 @@ const Nav = () => {
         <div className="xl:flex lg:flex xl:flex-1 items bg-center justify-end font-normal hidden  ">
           <div className="flex items-center">
             <ul className="flex gap-8 mr-16 text-md ">
-              <Link spy={true} smooth={true} to="/">
-                <li className="uppercase  hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
+              <NavLink to="/" end>
+                <li className="uppercase  hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 active:border-red-600 text-slate-300 cursor-pointer">
                   {" "}
                   Home
                 </li>
-              </Link>
-              <Link spy={true} smooth={true} to="/servicos">
-                <li className="uppercase hover:text-slate-300 duration-700 transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
+              </NavLink>
+              <NavLink to="/servicos" end>
+                <li className="uppercase hover:text-slate-300 duration-700 transition border-b-2 border-slate-900 hover:border-red-600 active:border-red-600 text-slate-300 cursor-pointer">
                   {" "}
                   Areas de atuação
                 </li>
-              </Link>
-              <Link spy={true} smooth={true} to="/about">
-                <li className="uppercase hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
+              </NavLink>
+              <NavLink to="/sobrenos" end>
+                <li className="uppercase hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 active:border-red-600 text-slate-300 cursor-pointer">
                   {" "}
                   Sobre nós
                 </li>
-              </Link>
-              <Link spy={true} smooth={true} to="/contatowhatsapp">
-                <li className="uppercase hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 text-slate-300 cursor-pointer">
+              </NavLink>
+              <NavLink to="/contatowhatsapp" end>
+                <li className="uppercase hover:text-slate-300 duration-700   transition border-b-2 border-slate-900 hover:border-red-600 active:border-red-600 text-slate-300 cursor-pointer">
                   {" "}
                   WhatsApp
                 </li>
-              </Link>
+              </NavLink>
             </ul>
           </div>
         </div>

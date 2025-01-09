@@ -33,29 +33,14 @@ const Footer = () => {
             <li className="text-[22px] list-none font-semibold text-slate-300 py-2 uppercase">
               Menu
             </li>
-            <li className="my-4 list-none">
-              <a
-                className="text-white text-lg  hover:border-red-600 hover:text-slate-300 transform hover:scale-150  transition-all duration-150 ease-in-out   "
-                href=""
-              >
-                Areas de atuação
-              </a>
+            <li className=" my-4 list-none text-white text-lg  hover:border-red-600 hover:text-slate-300 transform hover:scale-110  transition-all duration-150 ease-in-out ">
+              <a href="/servicos"> Areas de atuação</a>
             </li>
-            <li className="my-4 list-none">
-              <a
-                className="text-white text-lg  hover:text-slate-300 transform  duration-300    "
-                href=""
-              >
-                Sobre nós
-              </a>
+            <li className=" my-4 list-none text-white text-lg  hover:border-red-600 hover:text-slate-300 transform hover:scale-110  transition-all duration-150 ease-in-out ">
+              <a href="/sobrenos"> Sobre nós</a>
             </li>
-            <li className="my-4 list-none">
-              <a
-                className="text-white text-lg hover:text-slate-300 transform   duration-150    "
-                href=""
-              >
-                WhatsApp
-              </a>
+            <li className=" my-4 list-none text-white text-lg  hover:border-red-600 hover:text-slate-300 transform hover:scale-110  transition-all duration-150 ease-in-out ">
+              <a href="/contatowhatsapp"> WhatsApp</a>
             </li>
           </ul>
         </div>
@@ -74,20 +59,24 @@ const Footer = () => {
           </ul>
           <div className="flex space-x-4  ">
             <a
-              className="text-white text-2xl  hover:text-red-500 transform hover:scale-150  transition-all duration-150 ease-in-out   "
-              href=""
+              className="text-white text-2xl  hover:text-red-700 transform hover:scale-150  transition-all duration-150 ease-in-out   "
+              href="https://www.facebook.com/Escritoriodeadvocaciallm"
+              target="_blank"
             >
               <FaFacebook />
             </a>
             <a
-              className="text-white text-2xl hover:text-red-500 transform hover:scale-150 transition-all duration-150 ease-in-out   "
-              href=""
+              className="text-white text-2xl hover:text-red-700 transform
+              hover:scale-150 transition-all duration-150 ease-in-out "
+              href="https://wa.me//5521964356715?text=Gostaria%20de%20falar%20com%20um%20especialista."
+              target="_blank"
             >
               <FaWhatsapp />
             </a>
             <a
-              className="text-white text-2xl hover:text-red-500 transform hover:scale-150 transition-all duration-150 ease-in-out   "
-              href=""
+              className="text-white text-2xl hover:text-red-700 transform hover:scale-150 transition-all duration-150 ease-in-out   "
+              href="https://www.instagram.com/llmadvocaciaeassessoria/"
+              target="_blank"
             >
               <FaInstagram />
             </a>
