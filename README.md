@@ -2,9 +2,6 @@
 	🚧 LLMAdvocacia - Em contrução 🚧
 </h1>
 
-
-
-
 ## 📄 Descrição do projeto
 
 - O projeto consiste no desenvolvimento de um website moderno, funcional e responsivo para a empresa LLM Advocacia, especializada em serviços jurídicos. O objetivo é transmitir profissionalismo, confiança e acessibilidade, refletindo a identidade e os valores da empresa.
@@ -40,20 +37,18 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - **[React Icons](https://react-icons.github.io/react-icons/)**
 - **[Eslint](https://eslint.org/)**
 
-
 ##
 
 ## 🚀 Como executar o projeto
 
 1 - Clone o Projeto <br>
-```gh repo clone VieiraPe/llm-advocacia``` <br><br>
+`gh repo clone VieiraPe/llm-advocacia` <br><br>
 2 - Instalar as dependências <br>
-``` npm install ``` <br><br>
+`npm install` <br><br>
 3 - Rodar o projeto <br>
-``` npm run dev ```
+`npm run dev`
 
 ##
-
 
 ### Pré-requisitos
 
@@ -62,9 +57,6 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 Além disto é bom ter uma IDE para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ---
-
-
-
 
 ## 🦸 Desenvolvido por Vieira Pedro
 
@@ -82,8 +74,8 @@ Vieira Pedro</a>
 
 ### Página no desktop
 
-![Web1](https://raw.githubusercontent.com/VieiraPe/llm-advocacia/refs/heads/main/src/git_assets/Pagina-index.jpg)
-![Web2](https://raw.githubusercontent.com/VieiraPe/llm-advocacia/refs/heads/main/src/git_assets/Pagina-index-1.png)
+![Web1](https://github.com/VieiraPe/llm-advocacia/blob/main/src/git_assets/Pagina-index.jpg?raw=true)
+![Web2](https://github.com/VieiraPe/llm-advocacia/blob/main/src/git_assets/Pagina-index-1.png?raw=true)
 ![Web3](https://github.com/VieiraPe/llm-advocacia/blob/main/src/git_assets/Pagina-index-2.jpg?raw=true)
 
 ---
@@ -108,7 +100,6 @@ Vieira Pedro</a>
 
 ---
 
-
 ### Pagina no smartphone
 
 ![Mobile1](https://github.com/VieiraPe/llm-advocacia/blob/main/src/git_assets/Pagina-index-mobile.jpg?raw=true)<br>
@@ -116,6 +107,3 @@ Vieira Pedro</a>
 ![Mobile3](https://github.com/VieiraPe/llm-advocacia/blob/main/src/git_assets/Pagina-index-mobile-2.jpg?raw=true)
 
 ---
-
-
-
