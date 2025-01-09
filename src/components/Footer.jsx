@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
       </div>
       <h6 className="text-center pb-4">
-        &copy; Copy right - Desenvolvido por Vieira Pedro {year}
+        &copy; Copy right - Desenvolvido por Vieira Pedro - {year}
       </h6>
     </footer>
   );
